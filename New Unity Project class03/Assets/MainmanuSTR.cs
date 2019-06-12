@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainmanuSTR
 {
@@ -13,6 +14,7 @@ public class MainmanuSTR
         {
             case "MENU":
                 Application.LoadLevel("GameScene");
+                SceneManager.LoadScene("GameScene");
                 break;
             case "OPTION":
                 Application.LoadLevel("MainMenuScene");
