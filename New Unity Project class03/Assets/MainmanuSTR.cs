@@ -13,11 +13,12 @@ public class MainmanuSTR
         switch(m_state)
         {
             case "MENU":
-                Application.LoadLevel("GameScene");
+                //Application.LoadLevel("GameScene");
                 SceneManager.LoadScene("GameScene");
                 break;
             case "OPTION":
-                Application.LoadLevel("MainMenuScene");
+                //Application.LoadLevel("MainMenuScene");
+                SceneManager.LoadScene("MainMenuScene");
                 break;
         }
     }
